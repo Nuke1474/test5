@@ -37,6 +37,8 @@ for gate_type, data in logic_gates.items():
         predicted_output = round(predictions[i][0])
         true_output = outputs[i][0]
         print(f"Input: {inputs[i]} => Predicted Output: {predicted_output}, True Output: {true_output}")
+        
+/////////
 
 
 
